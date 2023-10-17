@@ -37,7 +37,7 @@ img {
   border: 2px solid lightgray;
 }
 
-.form button {
+.form button , #reset {
   width: 100px;
   background-color: #7055d3;
   color: white;
@@ -54,6 +54,8 @@ img {
 }
 
 #todolist li {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
   padding: 20px;
   box-shadow: -1px -1px 5px 0px gray;
